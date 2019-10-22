@@ -9,7 +9,7 @@ frame.grid()
 def display_arr (arr, row_, mid_index=-1):
     for i in range (len(arr)):
         if i == len(arr)//2:
-            tk.Label(frame, text=str(arr[i]), fg="yellow", bg="black").grid(row=row_, column=i+4)
+            tk.Label(frame, text=str(arr[i]), fg="yellow", bg="black").grid(row=row_, column=i+4).
         else:
             tk.Label(frame, text=str(arr[i]), fg="white", bg="black").grid(row=row_, column=i+4)
 
